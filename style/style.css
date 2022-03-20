@@ -21,10 +21,11 @@ h2 {
     font-family: 'Ramaraja', serif;
     font-size: 5rem;
 }
+.nav-item {
+    padding: 0 15px;
+  }
 
 .navigation {
-    display: flex;
-    justify-content: end;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
 }
