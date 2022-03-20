@@ -42,7 +42,16 @@ a.contact-link {
     color: rgba(0,0,0,.9);
 }
 
-.btn-contact {
+
+a.contact-link:hover {
+    color: #000;
+    transition: all 100ms ease-in-out;
+}
+.btn:hover {
+    background: var(--third-color);
+}
+
+.btn {
     font-size: 18px;
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
@@ -50,12 +59,17 @@ a.contact-link {
     box-shadow: var(--box-shadow);
 }
 
-a.contact-link:hover {
-    color: #000;
-    transition: all 100ms ease-in-out;
+.github {
+    font-style: italic;
 }
-.btn-contact:hover {
-    background: var(--third-color);
+
+a.github-link{
+text-decoration: none;
+color: #000;
+}
+a.github-link:hover {
+    text-decoration: underline;
+    color: rgb(0, 38, 255)
 }
 
 @media (max-width: 800px) {
