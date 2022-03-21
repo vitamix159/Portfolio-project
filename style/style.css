@@ -28,6 +28,7 @@ h2 {
 .navigation {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
+    font-style: italic;
 }
 
 .introduction {
