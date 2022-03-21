@@ -37,35 +37,11 @@ h2 {
     box-shadow: var(--box-shadow);
 }
 
-a.contact-link {
+.social-icons a {
     text-decoration: none;
-    color: rgba(0,0,0,.9);
-}
-
-
-a.contact-link:hover {
-    color: #000;
-    transition: all 100ms ease-in-out;
-}
-.btn:hover {
-    background: var(--third-color);
-}
-
-.btn {
-    font-size: 18px;
-    background-color: var(--primary-color);
-    border-radius: var(--border-radius);
-    padding: 10px 25px;
-    box-shadow: var(--box-shadow);
-}
-
-a.github-link{
-text-decoration: none;
-color: #000;
-}
-a.github-link:hover {
-    text-decoration: underline;
-    color: rgb(0, 38, 255)
+    color: #aaaaaa;
+    font-size: 40px;
+    margin-top: 40px;
 }
 
 @media (max-width: 800px) {
