@@ -68,7 +68,7 @@ h2 {
         font-size: 3rem;
     }
 
-    .me-learning {
+    .emojie {
         display: none;
     }
        
@@ -132,4 +132,9 @@ h4 {
     margin-top: 30px;
     border-radius: var(--border-radius);
     border: none;
+}
+
+ul {
+    text-align: left;
+    font-size: 18px;
 }
