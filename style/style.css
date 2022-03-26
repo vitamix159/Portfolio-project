@@ -107,7 +107,7 @@ h4 {
 }
 
 .preface {
-    font-size: 45px;
+    font-size: 55px;
 }
 
 .img-fluid {
@@ -121,9 +121,15 @@ h4 {
     opacity: 1;
 }
 
+.letter {
+    font-size: 25px;
+
+}
+
 .btn-primary {
     padding: 10px 15px;
     background-color: #96BAFF;
     margin-top: 30px;
     border-radius: var(--border-radius);
+    border: none;
 }
