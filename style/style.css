@@ -105,3 +105,25 @@ h4 {
     font-style: italic;
     margin-top: 55px;
 }
+
+.preface {
+    font-size: 45px;
+}
+
+.img-fluid {
+    background-color: #96BAFF;
+    opacity: 0.8;
+    padding: 25px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+.img-fluid:hover {
+    opacity: 1;
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    background-color: #96BAFF;
+    margin-top: 30px;
+    border-radius: var(--border-radius);
+}
