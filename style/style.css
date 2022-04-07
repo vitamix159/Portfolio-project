@@ -67,9 +67,14 @@ h2 {
     h2 {
         font-size: 3rem;
     }
+    h3 {
+        font-size: 3rem;
+    }
 
-    .emojie {
-        display: none;
+    .img-fluid {
+        width: 250px;
+        padding: 0;
+
     }
        
 }
